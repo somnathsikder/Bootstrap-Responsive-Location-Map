@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bootstrap Map Design </title>
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<style>
+
+		.map-responsive{
+			overflow: hidden;
+			padding-bottom: 50%;
+			position: relative;
+			height: 0;
+		}
+
+		.map-responsive iframe{
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<h1 class="text-center"> Map Design </h1>
+	<hr>
+		<section>
+			<div class="row align-items-center mt-5 mb-5 p-5">
+				<div class="col-xs-12 col-sm-12 col-lg-6 p-5">
+					<h1> Contact Information </h1>
+					<h4> Head Office </h4>
+					<p>  House #06, Road #004, Dhaka-1217. </p>
+					<h4> Factory Address </h4>
+					<p>  House #08, Road #02, Dhaka-1214. </p>
+					<h4> Phone </h4>
+					<p>  +0170000000 </p>
+					<h4> Email </h4>
+					<p>  text@gmail.com </p>
+				</div>
+				<div class=" map-responsive col-xs-12 col-sm-12 col-lg-6 ">
+					<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?ll=23.7461107,90.41208549999999&q=Fortune Shopping Mall&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+		</section>
+	<script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
